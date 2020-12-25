@@ -6280,6 +6280,10 @@ button.bg-black:focus {
   background-color: #fff !important;
 }
 
+.bg-purp {
+  background-color: #0d161d !important;
+}
+
 .bg-transparent {
   background-color: transparent !important;
 }
