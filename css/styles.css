@@ -541,6 +541,7 @@ pre code {
 }
 
 .container,
+.container-fullscreeen,
 .container-fluid,
 .container-xl,
 .container-lg,
@@ -573,6 +574,15 @@ pre code {
     max-width: 1140px;
   }
 }
+@media (min-width: 1200px) {
+  .container-fullscreen {
+    max-width: 1920px;
+  }
+}
+
+
+
+
 .row {
   display: flex;
   flex-wrap: wrap;
