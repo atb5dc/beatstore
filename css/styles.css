@@ -10316,7 +10316,7 @@ body {
 }
 @media (min-width: 992px) {
   .license-section .project-text {
-    padding: 0rem;
+    padding: 5rem;
   }
   .license-section .project-text hr {
     border-color: #b193a2;
