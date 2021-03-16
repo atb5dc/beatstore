@@ -8,11 +8,26 @@
               content="DJ Smalls, dj smalls, beats, buy beats, instrumentals, download beats, instrumental music, prod by djsmalls, music production, afrobeat beat, rnb beats, hip hop beats, type beats, drum kit, free beats, beats with hooks, beats for rappers, beats for singers"/>
 
         <meta name="author" content="" />
-        <title>DJ Smalls | Unique instrumental beats for independent artists</title>
+        <title>DJ Smalls | Unique instrumental beats for independent artists and filmmakers</title>
         <link rel="icon" sizes="500x500" href="https://s3.amazonaws.com/beatstarsdata/b.user.data/p/prodbydjsmalls-1516987/gfx/1582981964_deji.png.png"/>
 
-        <!-- ManyChat -->
-        <script src="//widget.manychat.com/1146419878808805.js" async="async"></script>
+        <script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '4357402050956014');
+		fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=4357402050956014&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->
+      
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LF416KP3WK"></script>
@@ -53,7 +68,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#beats">Beat Store</a></li>
+                        <!---<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#beats">Beat Store</a></li>--->
+                        <li class="nav-item dropdown">
+							<a class="nav-link js-scroll-trigger" href="#" data-toggle="dropdown">  Beat Store  </a>
+						    <ul class="dropdown-menu">
+							  <li><a class="dropdown-item" href="index.html#beats"> All beats</a></li>
+							  <li><a class="dropdown-item" href="hiphop.html#beats"> HipHop </a></li>
+							  <li><a class="dropdown-item" href="rnb.html#beats"> R&B </a></li>
+							  <li><a class="dropdown-item" href="#beats"> Afrobeats </a></li>
+						    </ul>
+						</li>
+					
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#licensing">Pricing</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Subscribe</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Contact">Contact me</a></li>
@@ -67,34 +92,32 @@
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase"><b>DJ Smalls Music</b></h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">High Quality Beats for Independent Artists.</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#beats">Beats</a>
+                    <h2 class="text-white-50 col-md-10 mx-auto mt-2 mb-5">High Quality Beats for Musicians and Filmmakers.</h2>
+                    <!---<a class="btn btn-primary js-scroll-trigger" href="#beats">Beats</a>-->
+          
+                    <div class="dropdown show">
+                      <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Beats
+                      </a>
+
+                      <div class="dropdown-menu" >
+                        <a class="dropdown-item" href="index.html#beats">All Beats</a>
+                        <a class="dropdown-item" href="hiphop.html#beats">HipHop</a>
+                        <a class="dropdown-item" href="rnb.html#beats">R&B/Soul</a>
+                        <a class="dropdown-item" href="#beats">Afrobeats</a>
+                      </div>
+                    </div>
+
                 </div>
             </div>
         </header>
 
-        <!-- Projects-->
-        <section class="projects-section bg-purp" id="beats">
-           <div class="col-md-10 col-lg-8 mx-auto text-center">
-                            <h2 class="text-primary mb-2"> Beats Catalog | Instant Delivery </h2>
-                            <p class="text-primary mb-1">Scroll to find beat. Click title to preview. Click <i class="fas fa-shopping-cart text-primary"></i> to purchase.</p>
-            </div> 
-            <div class="container-fullscreen">
-                <!-- Featured Project Row-->
-                <div class="row justify-content-center no-gutters">
-                	<iframe src="https://player.beatstars.com/?storeId=107330" width="90%" height="800" style="max-width:1920px;"> -- none -- </iframe>
-                </div>
-                <!-- Project Two Row-->
-                
-            </div>
-        </section>
         <!--licensing info-->
         <section class="license-section bg-black" id="licensing">
             <div class="row justify-content-center no-gutters">
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <h2 class="text-primary text-center">PRICES</h2>
-                            <p class="text-primary text-center">Non-Exclusive Licensing Options</p>
+                            <h2 class="text-primary text-center">CREDITS</h2>
                         </div>   
                     </div>
                       
@@ -102,62 +125,54 @@
             <div class="container">
               <div class="row text-primary", style="font-size: 0.8rem">
                     <div class="col-md-3 mb-3 mb-md-0 text-center">
-                      <h5><b><p>Basic License</p></b></h5>
-                      <b><p>Non-profit Use</p></b>
-                      <h1 class="mx-auto my-0 text-uppercase", style="font-size: 1.75rem"><b>$29.99</b></h1>
-                      <li>Good for Soundcloud</li>
-                      <li>Untagged MP3 file</li>
-                      <li>Limited to 10,000 streams</li>
-                      <li>Must Credit As ``Prod by DJ Smalls``</li>
-                      <li>Beat can still be leased</li>
-                    </div>
-                    <div class="col-md-3 mb-3 mb-md-0 text-center">
-                      <h5><b><p>Premium License</p></b></h5>
-                      <b><p>Commercial Use</p></b>
-                      <h1 class="mx-auto my-0 text-uppercase", style="font-size: 1.75rem"><b>$49.99</b></h1>
-                      <li>Untagged MP3 + WAV file</li>
-                      <li>Spotify & Apple Music</li>
-                      <li>YouTube (With Monetization)</li>
-                      <li>No Content ID</li>
-                      <li>Up to 100,000 streams</li>
-                      <li>Must Credit As ``Prod by DJ Smalls``</li>
-                      <li>Beat can still be leased</li>
-                      <p></p>
-                      <b><p>Bulk deals:</p></b>
-                      <b><h5>BUY 3 GET 1 FREE</h5></b>
-                    </div>
-                    <div class="col-md-3 mb-3 mb-md-0 text-center">
-                      <h5><b><p>Premium + Stems</p></b></h5>
-                      <b><p>Commercial Use</p></b>
-                      <h1 class="mx-auto my-0 text-uppercase", style="font-size: 1.75rem"><b>$99.99</b></h1>
-                      <li>Untagged MP3 + WAV + STEMS</li>
-                      <li>Includes Premium License</li>
-                      <li>Includes Tracked Out files</li>
-                      <li>Good for rearrangements</li>
-                      <li>YouTube (With Monetization)</li>
-                      <li>No Content ID</li>
-                      <li>Up to 100,000 streams</li>
-                      <li>Must Credit As ``Prod by DJ Smalls``</li>
-                      <li>Beat can still be leased</li>
-                      <p></p>
-                      <b><p>Bulk deals:</p></b>
-                      <b><h5>BUY 3 GET 1 FREE</h5></b>
-                    </div>
-                    <div class="col-md-3 mb-3 mb-md-0 text-center">
-                      <h5><b><p>Unlimited License</p></b></h5>
-                      <b><p>Commercial Use</p></b>
-                      <h1 class="mx-auto my-0 text-uppercase", style="font-size: 1.75rem"><b>$199.99</b></h1>
-                      <li>Untagged MP3 + WAV + STEMS</li>
-                      <li>Good for everything + radio</li>
-                      <li>YouTube (With Monetization)</li>
-                      <li>No Content ID</li>
-                      <li>Unlimited Streams</li>
-                      <li>Use in music video</li>
-                      <li>Must Credit As ``Prod by DJ Smalls``</li>
-                      <li>Beat can still be leased</li>
-                      <p></p>
-                      <b><p>Bulk deals:</p></b>
-                      <b><h5>BUY 2 GET 1 FREE</h5></b>
+                      <li> Avalon Young (Musician, American Idol Contestant)
+                      <li>Micah A. Watson (Filmmaker)</li>
+                      <ul>
+                        <li>40th and State (Film) </li> 
+                        <li>Black Enough (Web series) </li> 
+                      <ul>
+                      <li>University of Virginia Dept of Drama</li>
+                      <ul>
+                        <li>Black Monologues (Theater) </li> 
+                      <ul>
+                      <li>GJ the Ceasar (Musician) </li>
+                      <ul>
+                        <li>Sweet ones (Song)</li>
+                        <li>Got my heart (Song)</li>
+                      <ul>
+                      <li>Sefunmi Osinaike (Product manager, Founder (colab.io) Podcaster (Doing a thing). Author (How to product)) </li>
+                      <ul>
+                        <li> Doing a thing theme song (Podcast Jingle)</li>
+                      <ul>
+                      <li> Uzo Njoku (Artist, Painter - Pattern Maker - Product Design Enthusiast) </li>
+                      <ul>
+                        <li> Product launch theme song </li>
+                      <ul>
+                      <li>Marion Peru (Musician) </li>
+                      <ul>
+                        <li> Fire (Song)</li>
+                      <ul>
+                      <li>Nvthy (Musician) </li>
+                      <ul>
+                        <li> Cool (Song)</li>
+                        <li> Dreams (Song)</li>
+                      <ul>
+                      <li>Dutch Rebelle (Musician) </li>
+                      <ul>
+                        <li> Infatuated (Song)</li>
+                      <ul>
+                      <li>Carlos Rios (Musician)</li>
+                      <li>Diamond Kinloch (Musician)</li>
+                      <li>Liza Wallace (Musician)</li>
+                      <li>Jose Santana (Musician)</li>
+                      <li>Mike Lewis (Musician)</li>
+                      <li>Spenser Tillman (Musician)</li>
+                      <li>Shyeza(Musician)</li>
+                      <li>BreAnna Gladney(Musician)</li>
+                      <li>Alisha Endre(Musician)</li>
+                      <li>Cody Parr (Musician)</li>
+                      <li>Sevn Alias (Musician)</li>
+
                     </div>
               </div>
             </div>
