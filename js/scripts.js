@@ -1,15 +1,12 @@
-/* DJ Smalls Music - Core Scripts
-    Modernized Version (jQuery-free)
-*/
+/* DJ Smalls Music - High-Efficiency Scripts */
 
 window.addEventListener('DOMContentLoaded', event => {
 
-    // Navbar shrink function to handle background change on scroll
+    // Navbar scroll interaction
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
-        if (!navbarCollapsible) {
-            return;
-        }
+        if (!navbarCollapsible) return;
+        
         if (window.scrollY === 0) {
             navbarCollapsible.classList.remove('navbar-shrink');
         } else {
@@ -17,13 +14,10 @@ window.addEventListener('DOMContentLoaded', event => {
         }
     };
 
-    // Shrink the navbar initially
     navbarShrink();
-
-    // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
 
-    // Activate Bootstrap scrollspy on the main nav element
+    // Bootstrap Scrollspy activation
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
@@ -32,7 +26,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     };
 
-    // Collapse responsive navbar when a nav-link is clicked
+    // Mobile menu auto-close
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
