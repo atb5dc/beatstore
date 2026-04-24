@@ -673,6 +673,16 @@ a:hover { color: var(--text); }
   border-radius: 50%;
   color: var(--primary);
   transition: all 0.2s var(--ease);
+  line-height: 1;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.social-icon i {
+  display: block;
+  line-height: 1;
+  width: 1em;
+  height: 1em;
+  text-align: center;
 }
 .social-icon:hover {
   background: var(--primary);
