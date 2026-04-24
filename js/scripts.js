@@ -30,4 +30,17 @@ window.addEventListener('DOMContentLoaded', () => {
       a.classList.add('active');
     }
   });
+
+  // Fade in BeatStars player once it has loaded
+  document.querySelectorAll('.player-wrap iframe').forEach(iframe => {
+    // If the iframe has already loaded by the time this runs (cached), mark it now
+    if (iframe.complete || (iframe.contentDocument && iframe.contentDocument.readyState === 'complete')) {
+      iframe.classList.add('loaded');
+    }
+    iframe.addEventListener('load', () => {
+      iframe.classList.add('loaded');
+    });
+    // Fallback: force fade-in after 3s even if 'load' never fires (cross-origin can be quirky)
+    setTimeout(() => iframe.classList.add('loaded'), 3000);
+  });
 });

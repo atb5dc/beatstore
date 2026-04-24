@@ -187,22 +187,139 @@ a:hover { color: var(--text); }
 .section-header p { max-width: 600px; margin: 0 auto; }
 
 /* ---------- Beatstars player ---------- */
+.player-section {
+  position: relative;
+}
+
+.player-label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding: 0 0.25rem;
+}
+.player-label .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 0 0 0 var(--primary);
+  animation: pulse 2s infinite;
+}
+.player-label .text {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.player-label .text strong { color: var(--primary); font-weight: 700; }
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(201, 168, 184, 0.5); }
+  70% { box-shadow: 0 0 0 8px rgba(201, 168, 184, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(201, 168, 184, 0); }
+}
+
 .player-wrap {
   position: relative;
   width: 100%;
   border-radius: var(--radius);
   overflow: hidden;
-  border: 1px solid var(--border-soft);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border-medium);
+  box-shadow:
+    0 0 0 1px rgba(201, 168, 184, 0.05),
+    0 30px 80px rgba(0, 0, 0, 0.5),
+    0 0 120px rgba(201, 168, 184, 0.08);
   /* Responsive height — scales from ~600px mobile to ~900px on big screens */
   height: clamp(600px, 85vh, 900px);
   background: var(--bg-dark);
 }
+
+/* Accent line along the top of the player */
+.player-wrap::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--primary), transparent);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Loading placeholder shown behind the iframe until it loads */
+.player-loader {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--primary);
+  background: var(--bg-dark);
+  pointer-events: none;
+}
+.player-loader .bars {
+  display: flex;
+  gap: 4px;
+  align-items: flex-end;
+  height: 24px;
+}
+.player-loader .bars span {
+  display: block;
+  width: 4px;
+  background: var(--primary);
+  border-radius: 2px;
+  animation: loader-bar 1s ease-in-out infinite;
+}
+.player-loader .bars span:nth-child(1) { height: 40%; animation-delay: 0s; }
+.player-loader .bars span:nth-child(2) { height: 70%; animation-delay: 0.15s; }
+.player-loader .bars span:nth-child(3) { height: 100%; animation-delay: 0.3s; }
+.player-loader .bars span:nth-child(4) { height: 60%; animation-delay: 0.45s; }
+.player-loader .bars span:nth-child(5) { height: 85%; animation-delay: 0.6s; }
+@keyframes loader-bar {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1); }
+}
+.player-loader .label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
 .player-wrap iframe {
   position: absolute; inset: 0;
   width: 100%; height: 100%;
   border: 0;
+  opacity: 0;
+  transition: opacity 0.6s var(--ease);
+  z-index: 1;
 }
+.player-wrap iframe.loaded {
+  opacity: 1;
+}
+.player-wrap iframe.loaded ~ .player-loader {
+  opacity: 0;
+  transition: opacity 0.4s var(--ease);
+}
+
+.player-hint {
+  margin-top: 1rem;
+  padding: 0 0.25rem;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.player-hint a { color: var(--primary); }
+.player-hint .hint-left { display: flex; align-items: center; gap: 0.5rem; }
+.player-hint i { color: var(--primary); }
 
 /* ---------- Buttons ---------- */
 .btn {

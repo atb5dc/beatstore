@@ -83,10 +83,22 @@
     </header>
 
     <!-- Beatstars player (genre-filtered) -->
-    <section class="section bg-purp pt-4" id="beats">
+    <section class="section bg-purp pt-4 player-section" id="beats">
         <div class="container-fluid px-lg-5">
+            <div class="player-label">
+                <span class="dot"></span>
+                <span class="text"><strong>Live</strong> &nbsp;·&nbsp; The Latin Room</span>
+            </div>
             <div class="player-wrap">
                 <iframe src="https://player.beatstars.com/?storeId=125821" loading="lazy" title="DJ Smalls Latin beats"></iframe>
+                <div class="player-loader">
+                    <div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+                    <div class="label">Loading Latin beats</div>
+                </div>
+            </div>
+            <div class="player-hint">
+                <div class="hint-left"><i class="fas fa-lightbulb"></i> Click the cart icon on any beat to license it.</div>
+                <div><a href="licensing.html">See licensing options →</a></div>
             </div>
         </div>
     </section>
