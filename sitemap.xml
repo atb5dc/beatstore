@@ -1,57 +1,448 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.prodbydjsmalls.com/</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://www.prodbydjsmalls.com/hiphop.html</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.prodbydjsmalls.com/rnb.html</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.prodbydjsmalls.com/afrobeats.html</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.prodbydjsmalls.com/latin.html</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.prodbydjsmalls.com/licensing.html</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.prodbydjsmalls.com/faq.html</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.prodbydjsmalls.com/about.html</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.60</priority>
-  </url>
-  <url>
-    <loc>https://www.prodbydjsmalls.com/contact.html</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
-  </url>
-</urlset>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Beat Licensing Explained — Lease vs Exclusive | DJ Smalls</title>
+    <meta name="description" content="Compare beat licenses at DJ Smalls Music: Premium ($50), Unlimited ($199), and Exclusive. Streams, stems, and usage rights side-by-side." />
+    <meta name="keywords" content="beat license, lease vs exclusive, beat licensing explained, buy beat rights, unlimited beat license, exclusive beat purchase" />
+    <link rel="canonical" href="https://www.prodbydjsmalls.com/licensing.html" />
+
+    <meta property="og:title" content="Beat Licensing Explained | DJ Smalls" />
+    <meta property="og:description" content="Side-by-side comparison of Premium, Unlimited, and Exclusive beat licenses." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.prodbydjsmalls.com/licensing.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Beat Licensing Explained | DJ Smalls" />
+    <meta name="twitter:description" content="Side-by-side comparison of Premium, Unlimited, and Exclusive beat licenses." />
+    <meta name="twitter:image" content="https://s3.amazonaws.com/beatstarsdata/b.user.data/p/prodbydjsmalls-1516987/gfx/1582981964_deji.png.png" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "DJ Smalls Beat Licenses",
+      "description": "Beat licensing options for rappers, singers, and content creators.",
+      "image": "https://s3.amazonaws.com/beatstarsdata/b.user.data/p/prodbydjsmalls-1516987/gfx/1582981964_deji.png.png",
+      "brand": { "@type": "Brand", "name": "DJ Smalls Music" },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Premium Lease",
+          "price": "50.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://www.prodbydjsmalls.com/",
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "0",
+                "longitude": "0"
+              }
+            },
+            "doesNotShip": true
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "US",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Unlimited Lease",
+          "price": "199.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://www.prodbydjsmalls.com/",
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "0",
+                "longitude": "0"
+              }
+            },
+            "doesNotShip": true
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "US",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Exclusive License",
+          "price": "0",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "priceCurrency": "USD",
+            "description": "Custom pricing by inquiry"
+          },
+          "availability": "https://schema.org/InStock",
+          "url": "https://www.prodbydjsmalls.com/contact.html",
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "0",
+                "longitude": "0"
+              }
+            },
+            "doesNotShip": true
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "US",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+                {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://www.prodbydjsmalls.com/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Licensing",
+                      "item": "https://www.prodbydjsmalls.com/licensing.html"
+                }
+          ]
+    }
+    </script>
+
+    <link rel="icon" sizes="500x500" href="https://s3.amazonaws.com/beatstarsdata/b.user.data/p/prodbydjsmalls-1516987/gfx/1582981964_deji.png.png" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF416KP3WK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LF416KP3WK');
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">DJ <span>SMALLS</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Beats</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="index.html#beats">All Beats</a></li>
+                            <li><a class="dropdown-item" href="hiphop.html">Hip Hop</a></li>
+                            <li><a class="dropdown-item" href="rnb.html">R&B</a></li>
+                            <li><a class="dropdown-item" href="afrobeats.html">Afrobeats</a></li>
+                            <li><a class="dropdown-item" href="latin.html">Latin</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="licensing.html">Licensing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link nav-cta" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-hero">
+        <div class="container">
+            <span class="eyebrow">Licensing</span>
+            <h1>Every License, Explained</h1>
+            <p class="lead">No legalese traps, no hidden fees. Pick the tier that fits what you're releasing. Lease for most releases, go exclusive when you need the beat to be yours alone.</p>
+        </div>
+    </header>
+
+    <!-- Pricing cards -->
+    <section class="section bg-black">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <h3>Premium Lease</h3>
+                        <p class="small mb-0">Perfect for singles & mixtapes</p>
+                        <div class="price">$50</div>
+                        <ul>
+                            <li>MP3 + WAV untagged files</li>
+                            <li>Up to 100,000 streams across all platforms</li>
+                            <li>Spotify, Apple Music, YouTube, TikTok</li>
+                            <li>Non-profit live performances</li>
+                            <li>Music video (non-monetized)</li>
+                            <li>Producer credit required ("Prod. DJ Smalls")</li>
+                        </ul>
+                        <div class="card-cta">
+                            <a href="index.html#beats" class="btn btn-outline w-100">Browse Beats</a>
+                            <div class="bulk-deal">Buy 2, Get 1 Free</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card featured">
+                        <span class="pricing-badge">Most Popular</span>
+                        <h3>Unlimited Lease</h3>
+                        <p class="small mb-0">Full commercial use</p>
+                        <div class="price">$199</div>
+                        <ul>
+                            <li>MP3 + WAV + Track Stems</li>
+                            <li>Unlimited streams (no cap)</li>
+                            <li>Unlimited paid sales & downloads</li>
+                            <li>Radio play & monetized music video</li>
+                            <li>Paid live performances</li>
+                            <li>Producer credit required</li>
+                            <li>Beat remains available to others</li>
+                        </ul>
+                        <div class="card-cta">
+                            <a href="index.html#beats" class="btn btn-primary w-100">Browse Beats</a>
+                            <div class="bulk-deal">Buy 2, Get 1 Free</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <h3>Exclusive</h3>
+                        <p class="small mb-0">Exclusive rights to your recording</p>
+                        <div class="price">Custom<small> · by inquiry</small></div>
+                        <ul>
+                            <li>Every file format + full stems</li>
+                            <li>Beat permanently removed from store</li>
+                            <li>No new leases sold to anyone else</li>
+                            <li>You own the master recording</li>
+                            <li>Unlimited everything, no caps ever</li>
+                            <li>Producer credit required</li>
+                            <li>Major-label friendly</li>
+                        </ul>
+                        <div class="card-cta">
+                            <a href="contact.html" class="btn btn-outline w-100">Inquire Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison table -->
+    <section class="section bg-purp">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Side by Side</span>
+                <h2>License Comparison</h2>
+                <p>Everything you get, and don't get, at each tier.</p>
+            </div>
+            <div class="table-responsive">
+                <table class="license-table">
+                    <thead>
+                        <tr>
+                            <th>Rights & Features</th>
+                            <th class="center">Premium<br><small style="color:var(--text-dim); font-weight: 400;">$50</small></th>
+                            <th class="center">Unlimited<br><small style="color:var(--text-dim); font-weight: 400;">$199</small></th>
+                            <th class="center">Exclusive<br><small style="color:var(--text-dim); font-weight: 400;">Custom</small></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>MP3 file</td>
+                            <td class="center yes">✓</td>
+                            <td class="center yes">✓</td>
+                            <td class="center yes">✓</td>
+                        </tr>
+                        <tr>
+                            <td>WAV file (untagged)</td>
+                            <td class="center yes">✓</td>
+                            <td class="center yes">✓</td>
+                            <td class="center yes">✓</td>
+                        </tr>
+                        <tr>
+                            <td>Track stems</td>
+                            <td class="center no">—</td>
+                            <td class="center yes">✓</td>
+                            <td class="center yes">✓</td>
+                        </tr>
+                        <tr>
+                            <td>Streaming limit</td>
+                            <td class="center">100,000</td>
+                            <td class="center yes">Unlimited</td>
+                            <td class="center yes">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Paid sales / downloads</td>
+                            <td class="center">Limited</td>
+                            <td class="center yes">Unlimited</td>
+                            <td class="center yes">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Radio broadcast</td>
+                            <td class="center no">—</td>
+                            <td class="center yes">✓</td>
+                            <td class="center yes">✓</td>
+                        </tr>
+                        <tr>
+                            <td>Monetized music video</td>
+                            <td class="center no">—</td>
+                            <td class="center yes">✓</td>
+                            <td class="center yes">✓</td>
+                        </tr>
+                        <tr>
+                            <td>Paid live performances</td>
+                            <td class="center no">—</td>
+                            <td class="center yes">✓</td>
+                            <td class="center yes">✓</td>
+                        </tr>
+                        <tr>
+                            <td>Producer credit required</td>
+                            <td class="center">Yes</td>
+                            <td class="center">Yes</td>
+                            <td class="center">Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Beat removed from store</td>
+                            <td class="center no">—</td>
+                            <td class="center no">—</td>
+                            <td class="center yes">✓</td>
+                        </tr>
+                        <tr>
+                            <td>Own the master recording</td>
+                            <td class="center no">—</td>
+                            <td class="center no">—</td>
+                            <td class="center yes">✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section bg-black">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">The Process</span>
+                <h2>How Buying a Beat Works</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card h-equal">
+                        <div class="genre-icon" style="background: var(--primary-dim); color: var(--primary); margin-bottom: 1rem;">1</div>
+                        <h3 class="h5 mb-2">Preview & Pick</h3>
+                        <p class="mb-0">Browse the catalog, preview full tracks in the BeatStars player, and add your chosen beat to the cart.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card h-equal">
+                        <div class="genre-icon" style="background: var(--primary-dim); color: var(--primary); margin-bottom: 1rem;">2</div>
+                        <h3 class="h5 mb-2">Select Your License</h3>
+                        <p class="mb-0">Choose Premium, Unlimited, or inquire about an Exclusive. Checkout is secured through BeatStars.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card h-equal">
+                        <div class="genre-icon" style="background: var(--primary-dim); color: var(--primary); margin-bottom: 1rem;">3</div>
+                        <h3 class="h5 mb-2">Download Instantly</h3>
+                        <p class="mb-0">Your files and your license contract land in your inbox the moment checkout completes. Start recording.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section bg-purp">
+        <div class="container">
+            <div class="cta-banner">
+                <span class="eyebrow">Still got questions?</span>
+                <h2>Ask before you buy.</h2>
+                <p>If you're unsure which license fits your project, shoot me a message and I'll point you to the right one. No sales pressure.</p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                    <a href="contact.html" class="btn btn-primary">Contact Me</a>
+                    <a href="faq.html" class="btn btn-outline">Read the FAQ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <span class="brand">DJ SMALLS</span>
+                    <p class="text-muted-custom" style="font-size: 0.9rem;">Premium instrumentals for artists, filmmakers, and creators. Licensed simply. Delivered instantly.</p>
+                    <div class="social-row justify-content-start">
+                        <a class="social-icon" href="https://www.youtube.com/channel/UCHFVJ-FJCqekHnNCq40mCHQ" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a class="social-icon" href="https://open.spotify.com/artist/5obSmjjBD7Tf7lDCcRjXp0" aria-label="Spotify"><i class="fab fa-spotify"></i></a>
+                        <a class="social-icon" href="https://instagram.com/prodbydjsmalls" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a class="social-icon" href="mailto:prodbydjsmalls@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2 offset-md-2">
+                    <h5>Browse</h5>
+                    <a href="hiphop.html">Hip Hop</a>
+                    <a href="rnb.html">R&B</a>
+                    <a href="afrobeats.html">Afrobeats</a>
+                    <a href="latin.html">Latin</a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Info</h5>
+                    <a href="licensing.html">Licensing</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="col-md-2">
+                    <h5>Get Updates</h5>
+                    <a href="https://instagram.com/prodbydjsmalls">@prodbydjsmalls</a>
+                    <a href="mailto:prodbydjsmalls@gmail.com">Email me</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; <span id="year">2026</span> DJ Smalls Music. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
