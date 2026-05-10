@@ -716,33 +716,41 @@ a:hover { color: var(--text); }
 .d-none-hp { position: absolute; left: -9999px; }
 
 /* ---------- Social ---------- */
-.social-row { display: flex; gap: 0.75rem; justify-content: center; }
+.social-row {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .social-icon {
-  width: 44px; height: 44px;
-  background: var(--bg-card);
-  border: 1px solid var(--border-soft);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
   color: var(--primary);
-  transition: all 0.2s var(--ease);
+  font-size: 1.25rem;
   line-height: 1;
-  font-size: 1rem;
   text-decoration: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  transition: opacity 0.2s var(--ease), transform 0.2s var(--ease);
 }
 .social-icon i {
-  display: block;
+  display: inline-block;
   line-height: 1;
-  width: 1em;
-  height: 1em;
-  text-align: center;
 }
-.social-icon:hover {
-  background: var(--primary);
-  color: #0b1319;
-  border-color: var(--primary);
+.social-icon:hover,
+.social-icon:focus-visible {
+  opacity: 0.75;
   transform: translateY(-2px);
+  outline: none;
+}
+.social-icon:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 
 /* ---------- CTA banner ---------- */
