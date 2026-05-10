@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Directs search engines to your sitemap
-Sitemap: https://www.prodbydjsmalls.com/sitemap.xml
+Sitemap: https://prodbydjsmalls.com/sitemap.xml
